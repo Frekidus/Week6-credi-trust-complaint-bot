@@ -1,0 +1,30 @@
+.venv
+/data
+/logs
+/scripts/__pycache*
+/api/__pycache*
+/api/static
+/api/templates
+/api/app.py  
+/api/load_model.py
+/api/Procfile
+/api/model
+/tests/__pycache*
+
+
+
+# Ignore raw dataset
+data/complaints.csv
+
+# Ignore vector store files
+vector_store/*
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Ignore temporary files
+*.log
+*.tmp
